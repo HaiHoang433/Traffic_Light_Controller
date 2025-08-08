@@ -1,0 +1,343 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/codeVerilog/equalizer
+vBCD_minus
+!s110 1714704290
+!i10b 1
+!s100 haNDd8ej2SBM5f4^:38[=0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWIamN<[D?C@@Amlj_B6Ym1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/codeVerilog/traffic lights
+w1714704284
+8D:\codeVerilog\traffic lights\BCD_minus.v
+FD:\codeVerilog\traffic lights\BCD_minus.v
+!i122 30
+Z3 L0 1 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1714704289.000000
+!s107 D:\codeVerilog\traffic lights\BCD_minus.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\codeVerilog\traffic lights\BCD_minus.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@b@c@d_minus
+vclk_gen
+!s110 1714722136
+!i10b 1
+!s100 0NS=<X:2O3[EkDHXbEaEf1
+R0
+Iaa>3V1bn^FYZ>T^cS3KOz0
+R1
+R2
+w1714722130
+8D:/codeVerilog/2024-03-29-Lab_3-1/clk_gen.v
+FD:/codeVerilog/2024-03-29-Lab_3-1/clk_gen.v
+!i122 36
+L0 1 18
+R4
+r1
+!s85 0
+31
+!s108 1714722135.000000
+!s107 D:/codeVerilog/2024-03-29-Lab_3-1/clk_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/2024-03-29-Lab_3-1/clk_gen.v|
+!i113 1
+R5
+R6
+vCountryRoadController
+!s110 1714826984
+!i10b 1
+!s100 1M_al<H1E8DdeeRh4bSz?2
+R0
+I;M_=NQ_K1_[TDNRzkV_FU0
+R1
+R2
+w1714826976
+8D:/codeVerilog/traffic lights/CountryRoadController.v
+FD:/codeVerilog/traffic lights/CountryRoadController.v
+!i122 56
+L0 1 74
+R4
+r1
+!s85 0
+31
+!s108 1714826984.000000
+!s107 D:/codeVerilog/traffic lights/CountryRoadController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/CountryRoadController.v|
+!i113 1
+R5
+R6
+n@country@road@controller
+vD_FF
+!s110 1714702304
+!i10b 1
+!s100 gJjF?TH;S<g0bCem<=Hg80
+R0
+IeOE?409=C3FOa[D9O3VOQ3
+R1
+R2
+w1714702298
+8D:/codeVerilog/traffic lights/D_FF.v
+FD:/codeVerilog/traffic lights/D_FF.v
+!i122 27
+L0 1 22
+R4
+r1
+!s85 0
+31
+!s108 1714702304.000000
+!s107 D:/codeVerilog/traffic lights/D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/D_FF.v|
+!i113 1
+R5
+R6
+n@d_@f@f
+vdemlui
+!s110 1714703034
+!i10b 1
+!s100 3`X_2czF]G[hIQ3U[8BaG0
+R0
+IHXN3Z2NJ5_oj]igSl?TEG1
+R1
+R2
+w1714703024
+8D:\codeVerilog\traffic lights\demlui.v
+FD:\codeVerilog\traffic lights\demlui.v
+!i122 28
+L0 1 26
+R4
+r1
+!s85 0
+31
+!s108 1714703034.000000
+!s107 D:\codeVerilog\traffic lights\demlui.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\codeVerilog\traffic lights\demlui.v|
+!i113 1
+R5
+R6
+vgiaima7thanh
+!s110 1714650166
+!i10b 1
+!s100 ]SGeM7O?IhML^]ZzlO^G23
+R0
+IRiS:U3gGOXLT815UaFzf^2
+R1
+R2
+w1711369533
+8D:/codeVerilog/giaima7thanh.v
+FD:/codeVerilog/giaima7thanh.v
+!i122 11
+R3
+R4
+r1
+!s85 0
+31
+!s108 1714650165.000000
+!s107 D:/codeVerilog/giaima7thanh.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/giaima7thanh.v|
+!i113 1
+R5
+R6
+vhienthiled
+!s110 1714827237
+!i10b 1
+!s100 b<T10fhTMF@I`O4`]O>kC3
+R0
+Il>cl^eCl=JIN:JWo4;_>a3
+R1
+R2
+w1714827229
+8D:/codeVerilog/traffic lights/hienthiled.v
+FD:/codeVerilog/traffic lights/hienthiled.v
+!i122 57
+L0 1 39
+R4
+r1
+!s85 0
+31
+!s108 1714827237.000000
+!s107 D:/codeVerilog/traffic lights/hienthiled.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/hienthiled.v|
+!i113 1
+R5
+R6
+vHighwayController
+!s110 1714826812
+!i10b 1
+!s100 F7Rk<O_:[SWnV;V05Nf_m1
+R0
+I?AmQO]GW:JC8m:OcfzlhV1
+R1
+R2
+w1714826749
+8D:/codeVerilog/traffic lights/HighwayController.v
+FD:/codeVerilog/traffic lights/HighwayController.v
+!i122 55
+L0 1 83
+R4
+r1
+!s85 0
+31
+!s108 1714826812.000000
+!s107 D:/codeVerilog/traffic lights/HighwayController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/HighwayController.v|
+!i113 1
+R5
+R6
+n@highway@controller
+vSensor
+!s110 1714653959
+!i10b 1
+!s100 9DMTG6N8mHQ0W4QOZSzKO3
+R0
+I`:@i^FXjhMciKKQKjzI:j3
+R1
+R2
+w1714653956
+8D:/codeVerilog/traffic lights/Sensor.v
+FD:/codeVerilog/traffic lights/Sensor.v
+!i122 17
+L0 1 10
+R4
+r1
+!s85 0
+31
+!s108 1714653959.000000
+!s107 D:/codeVerilog/traffic lights/Sensor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/Sensor.v|
+!i113 1
+R5
+R6
+n@sensor
+vTimer
+!s110 1714799453
+!i10b 1
+!s100 _WSnClMgi6EGd6G2CRK903
+R0
+IDTIedTY1BV:HngH]8;M[E1
+R1
+R2
+w1714799437
+8D:/codeVerilog/traffic lights/Timer.v
+FD:/codeVerilog/traffic lights/Timer.v
+!i122 46
+Z7 L0 1 47
+R4
+r1
+!s85 0
+31
+!s108 1714799453.000000
+!s107 D:/codeVerilog/traffic lights/Timer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/Timer.v|
+!i113 1
+R5
+R6
+n@timer
+vTopModuleTL
+!s110 1714701398
+!i10b 1
+!s100 iGF[fa@AGL`hfV0141`g63
+R0
+IT_NmUTd84omjScFPggCB?3
+R1
+R2
+w1714701391
+8D:\codeVerilog\traffic lights\topmoduleTL.v
+FD:\codeVerilog\traffic lights\topmoduleTL.v
+!i122 26
+L0 1 73
+R4
+r1
+!s85 0
+31
+!s108 1714701398.000000
+!s107 D:\codeVerilog\traffic lights\topmoduleTL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\codeVerilog\traffic lights\topmoduleTL.v|
+!i113 1
+R5
+R6
+n@top@module@t@l
+vtopmoduleTL
+!s110 1714725420
+!i10b 1
+!s100 j<Mm:YI=UGG?KBTMJaG5h1
+R0
+I6CF9Mka`0WCJB1AL6Q2B02
+R1
+R2
+w1714725414
+8D:/codeVerilog/traffic lights/topmoduleTL.v
+FD:/codeVerilog/traffic lights/topmoduleTL.v
+!i122 39
+L0 1 77
+R4
+r1
+!s85 0
+31
+!s108 1714725420.000000
+!s107 D:/codeVerilog/traffic lights/topmoduleTL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/topmoduleTL.v|
+!i113 1
+R5
+R6
+ntopmodule@t@l
+vTrafficLightCounter
+!s110 1714826168
+!i10b 1
+!s100 Jk=[Ub7Cf86@jO@8Xlk2g1
+R0
+I2cNCo[aJDGeOz1VX4_PcQ1
+R1
+R2
+w1714820743
+Z8 8D:/codeVerilog/traffic lights/TrafficLightCounter.v
+Z9 FD:/codeVerilog/traffic lights/TrafficLightCounter.v
+!i122 50
+R7
+R4
+r1
+!s85 0
+31
+!s108 1714826168.000000
+Z10 !s107 D:/codeVerilog/traffic lights/TrafficLightCounter.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|D:/codeVerilog/traffic lights/TrafficLightCounter.v|
+!i113 1
+R5
+R6
+n@traffic@light@counter
+vTrafficLightCounter_BCD
+!s110 1714703859
+!i10b 1
+!s100 DOT;[Kf`kNTS;R2e[1T;=2
+R0
+IFEg_kTR[Z6oROJ]U<2`?62
+R1
+R2
+w1714703852
+R8
+R9
+!i122 29
+L0 1 38
+R4
+r1
+!s85 0
+31
+!s108 1714703859.000000
+R10
+R11
+!i113 1
+R5
+R6
+n@traffic@light@counter_@b@c@d

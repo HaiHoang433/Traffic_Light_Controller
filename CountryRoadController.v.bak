@@ -1,0 +1,48 @@
+module CountryRoadController(
+    input wire clk,
+    input wire rst_n,
+    input wire car,
+    input wire enable_n
+    input wire Timeout,
+    input wire timeout,
+    output reg enable_h,
+    output reg start_n
+);
+
+// ??nh ngh?a tr?ng thái
+parameter [2:0] GREEN_CR = 3'b100;
+parameter [2:0] YELLOW_CR = 3'b010;
+parameter [2:0] RED_CR = 3'b001;
+
+// Khai báo bi?n tr?ng thái và bi?n l?u tr? tr?ng thái hi?n t?i
+reg [2:0] NextState, CurrentState;
+
+// Gán giá tr? tr?ng thái ban ??u
+always @ (NextState, CurrentState, enable_n, Timeout, timeout) begin
+    NextState = CurrentState;
+    start_n = 0;
+    enable_h = 0;
+    case (CurrentState)
+        GREEN_CR: begin
+            if (Timeout == 1) begin
+                NextState = YELLOW_CR;
+                start_n = 1;
+            end
+        end
+        YELLOW_CR: begin
+            if (timeout == 1) begin
+                NextState = RED_CR;
+                enable_h = 1;
+            end
+        end
+        RED_CR: begin
+            if (enable_n) begin
+                NextState = GREEN_CR;
+                start_n = 1;
+            end
+        end
+    endcase
+end
+
+endmodule
+

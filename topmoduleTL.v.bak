@@ -1,0 +1,105 @@
+module topmoduleTL(
+    input wire clk,               // Clock input
+    input wire rst_n,             // Reset input (active low)
+    input wire car_detected,     // Car detection input
+    input wire timeout,
+    input wire Timeout,
+    output reg led1,             // Output LED 1
+    output reg led2,             // Output LED 2
+    output reg led3,             // Output LED 3
+    output reg led4,             // Output LED 4
+    output reg led5,             // Output LED 5
+    output reg led6           // Output LED 6
+	
+);
+
+reg [7:0] count;
+wire enable_h;
+wire start_h;
+wire enable_n;
+wire start_n;
+
+wire [6:0] led1_wire;
+wire [6:0] led2_wire;
+wire [6:0] led3_wire;
+wire [6:0] led4_wire;
+wire [6:0] led5_wire;
+wire [6:0] led6_wire;
+
+
+parameter [2:0] GREEN_CR = 3'b100;
+parameter [2:0] YELLOW_CR = 3'b010;
+parameter [2:0] RED_CR = 3'b001;
+parameter T = 8'd30; // Giá trị thời gian T
+parameter t = 8'd5;   // Giá trị thời gian t
+
+
+
+// Instantiate the clock generator
+clk_gen clk_generator(
+    .clk(clk),
+    .clk_1Hz()
+);
+
+// Instantiate the sensor module
+Sensor sensor_inst(
+    .car_detected(car_detected),
+    .car()
+);
+
+// Instantiate the timer module
+Timer timer_inst(
+    .clk(clk),
+    .rst_n(rst_n),
+    .Timeout(Timeout),
+    .timeout(timeout)
+);
+assign count_wire = count;
+
+// Instantiate the HighwayController module
+HighwayController highway_ctrl(
+    .clk(clk),
+    .rst_n(rst_n),
+    .car(car_detected),
+    .enable_h(enable_h),
+    .Timeout(Timeout),
+    .timeout(timeout),
+    .enable_n(enable_n),
+    .start_h(start_h)
+);
+
+// Instantiate the CountryRoadController module
+CountryRoadController country_ctrl(
+    .clk(clk),
+    .rst_n(rst_n),
+    .car(car_detected),
+    .enable_n(enable_n),
+    .Timeout(Timeout),
+    .timeout(timeout),
+    .enable_h(enable_h),
+    .start_n(start_n)
+);
+
+// Instantiate the LED display module
+hienthiled led_display(
+    .count_x_bcd(count_x_bcd),
+    .count_y_bcd(count_y_bcd),
+    .count_r_bcd(count_z_bcd),
+    .led1(led1_wire),
+    .led2(led2_wire),
+    .led3(led3_wire),
+    .led4(led4_wire),
+    .led5(led5_wire),
+    .led6(led6_wire)
+);
+always @* begin
+    led1 = led1_wire;
+    led2 = led2_wire;
+    led3 = led3_wire;
+    led4 = led4_wire;
+    led5 = led5_wire;
+    led6 = led6_wire;
+end
+
+endmodule
+

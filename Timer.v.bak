@@ -1,0 +1,29 @@
+module Timer(
+    input wire clk,
+    input wire rst_n,
+    output reg Timeout,
+    output wire timeout,
+    output reg [7:0] count
+);
+
+always @(posedge clk or negedge rst_n) begin
+    if (~rst_n) begin
+        count <= 0;
+        Timeout <= 0;
+    end else begin
+        if (timeout == 1) begin
+            if (count < 8'b10011001) begin
+                count <= count + 1;
+            end else begin
+                Timeout <= 1;
+            end
+        end else begin
+            count <= 0;
+            Timeout <= 0;
+        end
+    end
+end
+
+assign timeout = (count >= 8'b10011001) ? 1 : 0;
+
+endmodule

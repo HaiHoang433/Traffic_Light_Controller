@@ -1,0 +1,12 @@
+module Sensor(
+    input wire car_detected,
+    output reg car
+);
+
+// Mô ph?ng c?m bi?n phát hi?n ô tô
+always @(car_detected) begin
+    car = car_detected;
+end
+
+endmodule
+

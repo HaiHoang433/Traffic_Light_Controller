@@ -1,0 +1,70 @@
+{D:/codeVerilog/traffic lights/BCD_minus.v} {1 {vlog -work work -stats=none {D:\codeVerilog\traffic lights\BCD_minus.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BCD_minus
+
+Top level modules:
+	BCD_minus
+
+} {} {}} {D:/codeVerilog/traffic lights/HighwayController.v} {2 {vlog -work work -stats=none {D:/codeVerilog/traffic lights/HighwayController.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HighwayController
+** Warning: D:/codeVerilog/traffic lights/HighwayController.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	HighwayController
+
+} {} {}} {D:/codeVerilog/traffic lights/Timer.v} {2 {vlog -work work -stats=none {D:/codeVerilog/traffic lights/Timer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Timer
+** Warning: D:/codeVerilog/traffic lights/Timer.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(29): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(31): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/codeVerilog/traffic lights/Timer.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	Timer
+
+} {} {}} D:/codeVerilog/giaima7thanh.v {1 {vlog -work work -stats=none D:/codeVerilog/giaima7thanh.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module giaima7thanh
+
+Top level modules:
+	giaima7thanh
+
+} {} {}} D:/codeVerilog/2024-03-29-Lab_3-1/clk_gen.v {1 {vlog -work work -stats=none D:/codeVerilog/2024-03-29-Lab_3-1/clk_gen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clk_gen
+
+Top level modules:
+	clk_gen
+
+} {} {}} {D:/codeVerilog/traffic lights/Sensor.v} {1 {vlog -work work -stats=none {D:/codeVerilog/traffic lights/Sensor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sensor
+
+Top level modules:
+	Sensor
+
+} {} {}} {D:/codeVerilog/traffic lights/TrafficLightCounter.v} {1 {vlog -work work -stats=none {D:/codeVerilog/traffic lights/TrafficLightCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TrafficLightCounter
+
+Top level modules:
+	TrafficLightCounter
+
+} {} {}} {D:/codeVerilog/traffic lights/D_FF.v} {1 {vlog -work work -stats=none {D:/codeVerilog/traffic lights/D_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}}

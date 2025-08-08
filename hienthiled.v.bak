@@ -1,0 +1,47 @@
+module hienthiled
+(
+    input wire [7:0] count_x_bcd,   
+    input wire [7:0] count_y_bcd,
+    input wire [7:0] count_r_bcd, 
+    output wire [6:0] led1,  
+    output wire [6:0] led2,  
+    output wire [6:0] led3,  
+    output wire [6:0] led4,  
+    output wire [6:0] led5,  
+    output wire [6:0] led6  
+);
+
+wire [6:0] led1_wire;
+wire [6:0] led2_wire;
+giaima7thanh GiaiMacount_x_bcd1(.data(count_x_bcd[3:0]), .led(led1_wire));  // LED th? nh?t cho count_x_bcd
+giaima7thanh GiaiMacount_x_bcd2(.data(count_x_bcd[7:4]), .led(led2_wire));  // LED th? hai cho count_x_bcd
+
+giaima7thanh GiaiMacount_y_bcd1(.data(count_y_bcd[3:0]), .led(led1_wire));  // LED th? nh?t cho count_y_bcd
+giaima7thanh GiaiMacount_y_bcd2(.data(count_y_bcd[7:4]), .led(led2_wire));  // LED th? hai cho count_y_bcd
+
+giaima7thanh GiaiMacount_r_bcd1(.data(count__r_bcd[3:0]), .led(led1_wire));  // LED th? nh?t cho count__r_bcd
+giaima7thanh GiaiMacount_r_bcd2(.data(count__r_bcd[7:4]), .led(led2_wire));  // LED th? hai cho count__r_bcd
+
+wire [6:0] led3_wire;
+wire [6:0] led4_wire;
+giaima7thanh GiaiMacount_x_bcd3(.data(count_x_bcd[3:0]), .led(led3_wire));  // LED th? nh?t cho count_x_bcd
+giaima7thanh GiaiMacount_x_bcd4(.data(count_x_bcd[7:4]), .led(led4_wire));  // LED th? hai cho count_x_bcd
+
+giaima7thanh GiaiMacount_y_bcd3(.data(count_y_bcd[3:0]), .led(led3_wire));  // LED th? nh?t cho count_y_bcd
+giaima7thanh GiaiMacount_y_bcd4(.data(count_y_bcd[7:4]), .led(led4_wire));  // LED th? hai cho count_y_bcd
+
+giaima7thanh GiaiMacount_r_bcd3(.data(count__r_bcd[3:0]), .led(led3_wire));  // LED th? nh?t cho count__r_bcd
+giaima7thanh GiaiMacount_r_bcd4(.data(count__r_bcd[7:4]), .led(led4_wire));  // LED th? hai cho count__r_bcd
+
+wire [6:0] led5_wire;
+wire [6:0] led6_wire;
+
+assign led6 = led6_wire;
+assign led5 = led5_wire;
+assign led4 = led4_wire;
+assign led3 = led3_wire;
+assign led2 = led2_wire;
+assign led1 = led1_wire;
+
+endmodule
+
